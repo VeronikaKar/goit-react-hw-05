@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-01",
+  "name": "goit-react-hw-05",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -23,6 +23,7 @@
     "react-input-mask": "^2.0.4",
     "react-loader-spinner": "^6.1.6",
     "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
     "save": "^2.9.0",
     "tailwindcss": "^3.4.4",
     "unsplash-js": "^7.0.19",
