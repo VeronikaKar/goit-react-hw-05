@@ -1,10 +1,9 @@
-
 import * as Yup from "yup";
 import { Field, Form, Formik } from "formik";
 import { ErrorMessage } from "formik";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
-import { addContact } from "reduxStore/contactsSlice";
+import { addContact } from "../../redux/contactsSlice";
 import toast, { Toaster } from "react-hot-toast";
 import s from "./ContactForm.module.css";
 
@@ -67,5 +66,3 @@ export const ContactForm = () => {
     </div>
   );
 };
-
-

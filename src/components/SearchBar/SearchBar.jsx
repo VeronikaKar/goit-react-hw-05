@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { changeFilter } from "reduxStore/filtersSlice";
+import { changeFilter } from "../../redux/filtersSlice";
 import toast, { Toaster } from "react-hot-toast";
 import s from "./SearchBar.module.css";
 

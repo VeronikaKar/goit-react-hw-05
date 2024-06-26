@@ -1,5 +1,5 @@
 import s from "./ContactItem.module.css";
-import { deleteContact } from "reduxStore/contactsSlice";
+import { deleteContact } from "../../redux/contactsSlice";
 import { useDispatch } from "react-redux";
 import { ContactIcon } from "lucide-react";
 import { PhoneCallIcon } from "lucide-react";
